@@ -12,12 +12,6 @@
 
 static std::vector<int> s_arr = {5, 7, 1, 9, 2, 6, 8, 4, 3};
 
-inline void _swap(int &a, int &b) {
-    a ^= b;
-    b ^= a;
-    a ^= b;
-}
-
 static void quick_sort(std::vector<int> &arr, int start, int end) {
     if (start >= end) {
         return;

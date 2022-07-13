@@ -11,6 +11,7 @@ Use several algorithm design methods to solve several common problems with C++11
 ## Divide Conquer
 - fibonacci sequence
 - quick sort
+- merge sort
 
 ## Dynamic Programming
 - backpack 01

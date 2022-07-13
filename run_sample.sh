@@ -19,6 +19,7 @@ nohup $WORK_PATH/output/greedy/dijkstra > log/greedy/dijkstra.log 2>&1 &
 # divide_conquer
 nohup $WORK_PATH/output/divide_conquer/fibonacci_sequence_dc > log/divide_conquer/fibonacci_sequence_dc.log 2>&1 &
 nohup $WORK_PATH/output/divide_conquer/quick_sort > log/divide_conquer/quick_sort.log 2>&1 &
+nohup $WORK_PATH/output/divide_conquer/merge_sort > log/divide_conquer/merge_sort.log 2>&1 &
 
 # dynamic_programming
 nohup $WORK_PATH/output/dynamic_programming/backpack_01 > log/dynamic_programming/backpack_01.log 2>&1 &

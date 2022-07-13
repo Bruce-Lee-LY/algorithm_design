@@ -44,8 +44,9 @@ install (TARGETS coin_change dijkstra RUNTIME DESTINATION greedy)
 # divide_conquer
 add_executable (fibonacci_sequence_dc ${PROJECT_SOURCE_DIR}/src/divide_conquer/fibonacci_sequence.cpp)
 add_executable (quick_sort ${PROJECT_SOURCE_DIR}/src/divide_conquer/quick_sort.cpp)
+add_executable (merge_sort ${PROJECT_SOURCE_DIR}/src/divide_conquer/merge_sort.cpp)
 
-install (TARGETS fibonacci_sequence_dc quick_sort RUNTIME DESTINATION divide_conquer)
+install (TARGETS fibonacci_sequence_dc quick_sort merge_sort RUNTIME DESTINATION divide_conquer)
 
 # dynamic_programming
 add_executable (backpack_01 ${PROJECT_SOURCE_DIR}/src/dynamic_programming/backpack_01.cpp)

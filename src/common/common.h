@@ -31,6 +31,12 @@ inline double get_time_s() {
     return (double)get_time_us() * .000001;
 }
 
+inline void _swap(int &a, int &b) {
+    a ^= b;
+    b ^= a;
+    a ^= b;
+}
+
 #ifdef __cplusplus
 }
 #endif  // __cplusplus
